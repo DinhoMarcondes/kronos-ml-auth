@@ -47,7 +47,7 @@ const server = http.createServer(async (req, res) => {
   const path   = parsed.pathname;
 
   // CORS
-  res.setHeader('Access-Control-Allow-Origin', KRONOS_URL);
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
