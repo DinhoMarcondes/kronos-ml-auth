@@ -1,0 +1,10 @@
+{
+  "name": "kronos-ml-auth",
+  "version": "1.0.0",
+  "description": "Kronos ML Auth Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
