@@ -12,7 +12,7 @@ const KRONOS_URL = 'https://stellar-chebakia-dfcb81.netlify.app';
 // A redirect_uri registrada no ML deve ser a URL deste servidor + /callback
 // Ex: https://kronos-ml-auth.SEU-USUARIO.repl.co/callback
 // Atualize esta variável com a URL do seu Replit:
-const SERVER_URL = process.env.REPL_URL || 'https://kronos-ml-auth--luizclaudiomtb.replit.app';
+const SERVER_URL = process.env.REPL_URL || 'https://kronos-ml-auth.onrender.com';
 const REDIRECT_URI = SERVER_URL + '/callback';
 
 function postToML(params) {
