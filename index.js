@@ -4,7 +4,7 @@ const url = require('url');
 
 const APP_ID      = '6521968317073769';
 const APP_SECRET  = 'EDiRnSC3fjRg2KabqeV8qdFIzXDFuitm';
-const KRONOS_URL  = 'https://stellar-chebakia-dfcb81.netlify.app';
+const KRONOS_URL  = 'https://dinhomarcondes.github.io/Kronos/';
 const SERVER_URL  = 'https://kronos-ml-auth.onrender.com';
 const REDIRECT_URI = SERVER_URL + '/callback';
 
